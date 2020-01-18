@@ -1,21 +1,8 @@
-body {
+.main {
+    display: block;
     text-align: center;
 }
 
-.buttonscontainer {
-    /* float: left; */
-    clear: none;
-}
-
-li {
-    float: left;
-    list-style: none;
-}
-
-#button {
-    width: 2000px;
-}
-
 #logo {
-
+    padding-top: 109px;
 }
