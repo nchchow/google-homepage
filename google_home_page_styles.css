@@ -22,3 +22,9 @@ li a {
 #logo {
     padding-top: 109px;
 }
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    background-color: #f2f2f2;
+}
