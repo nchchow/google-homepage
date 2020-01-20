@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo Google</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="googlestyles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <!--Top Nav Bar-->
+        <ul>
+            <li>About</li>
+            <li>Store</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <!--Main Container-->
+        <div id="logo">
+            <!--Google Logo-->
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+
+        <!--Search Bar with fake submission-->
+        <form action="searchscript.php" method="POST">
+            <input class="search-bar" name="search-term" value="">
+            <br>
+            <!--Buttons-->
+            <input id="search" class="button" name="search-button" value="Google Search">
+            <input class="button" name="lucky-button" value="I'm feeling lucky">
+        </form>
+
+    </div>
+    <div class="footer">
+        <div class="country">Canada</div>
+        <ul>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search Works</a></li>
+
+            <li style="float:right"><a href="">Privacy</a></li>
+            <li style="float:right"><a href="">Terms</a href=""></li>
+            <li style="float:right"><a href="">Settings</a href=""></li>
+        </ul>
+    </div>
+</body>
+
+</html>
