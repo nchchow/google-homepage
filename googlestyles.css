@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: small;
+    text-align: center;
+    padding: 14px 16px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.main {
+    display: block;
+    text-align: center;
+}
+
+#logo {
+    padding-top: 109px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    background-color: #f2f2f2;
+}
